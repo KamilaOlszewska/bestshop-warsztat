@@ -172,7 +172,6 @@
 .circle1{
     background-color:#fb3b64;
 
-
 }
 .circle2{
     background-color: #08a6e4;
@@ -285,7 +284,9 @@
     margin-top: 90px;
     margin-bottom: 90px;
 }
-.benefit-box-picture{}
+.benefit-box-picture{
+    position: relative;
+}
 .b-box1{}
 .b-box-info1{
     margin-right: 200px;
@@ -296,6 +297,7 @@
     justify-content: flex-end;
     align-items: center;
     padding-right: 100px;
+    position: relative;
 }
 .b-box-pic2{
     display: flex;
@@ -321,6 +323,8 @@
 .shape-pic1 {
     max-width: 400px;
     position: absolute;
+    top:0;
+    right:0;
 }
 .shape2{
     width: 320px;
@@ -403,3 +407,126 @@
     margin-bottom: 44px;
 
  }
+ /*plans*/
+.pricing{
+    padding-top: 100px;
+}
+.pricing h3{
+    text-align: center;
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    padding-bottom: 50px;
+
+}
+.pricing p{
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 1;
+    margin-bottom: 50px;
+
+}
+.plan{
+    border-radius: 18px;
+    padding-top: 34px;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+    position: relative;
+    height: 450px;
+}
+.plan1{
+    border: 1px solid #fb3b64;
+}
+.plan2{
+    border: 1px solid #07ace6;
+}
+.plan3{
+    border: 1px solid #55dfb4;
+}
+.pp1{
+    color: #fb3b64;
+}
+.pp2{
+    color: #07ace6;
+}
+.pp3{
+    color: #55dfb4;
+}
+.plan-name{
+    font-family: Raleway,sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #13253B;
+    padding-bottom: 14px;
+}
+.plan-price{
+    font-family: Open Sans, sans-serif;
+    font-weight: 200;
+    font-size: 46px;
+}
+.limited-offer{
+    font-family: Raleway, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #13253B;
+}
+.checkbox-ok{
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Checkmark-1.svg);
+    display: inline-flex;
+}
+.checkbox-no{
+    width: 11px;
+    height: 11px;
+    background-image: url(../assets/Close.svg);
+}
+.plan:hover{
+    transform: scale(1.2);
+
+}
+.plan1:hover{
+    box-shadow: 5px 10px 27px rgba(251,59,100,0.3);
+}
+.plan2:hover{
+    box-shadow: 5px 10px 27px rgba(7,172,230,0.3);
+}
+.plan3:hover{
+    box-shadow: 5px 10px 27px rgba(85,223,180,0.3);
+}
+.plan-btn{
+    font-family: Open Sans, sans-serif;
+    border-radius: 23px;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px;
+    position: absolute;
+    top:430px;
+    left: 97px;
+
+
+}
+.btn1{
+    background-color: #eb476e;
+}
+.btn2{
+    background-color: #07ace6;
+}
+.btn3{
+    background-color: #55dfb4;
+}
+.support{
+    margin-bottom: 70px;
+}
+.memory{
+    padding-top: 60px;
+}

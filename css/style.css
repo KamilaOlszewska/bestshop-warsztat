@@ -541,9 +541,25 @@
 
 /*form*/
 .form{
-    width: 900px;
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin-top: 140px;
+    margin-bottom: 70px;
+
 }
-.form-contact-data{}
+.form-contact-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 345px;
+
+
+}
+
 .question{
     font-family: Raleway, sans-serif;
     font-size: 49px;
@@ -569,7 +585,12 @@
     width: 27px;
     background-image: url(../assets/Phone-Icon.svg);
 }
-.contact-form{}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
 .label{
     font-family: Open Sans, sans-serif;
     font-size: 11px;
@@ -577,20 +598,80 @@
     color: #08a6e4;
     text-transform: uppercase;
     letter-spacing: 3.28px;
+    align-self: flex-start;
+    margin-top: 45px;
 
 }
 .input{
-    border-bottom: 2px solid #707070;
+    border-bottom: 2px solid #95989a;
     border-right: white;
-
+    border-top: white;
+    border-left: white;
+    width: 440px;
+    height: 50px;
 }
-.checkbox-form{}
+.checkbox-form{
+    display: flex;
+    flex-direction: row;
+    width: 440px;
+}
 .privacy-info{
     font-family: Open Sans, sans-serif;
     font-size: 12px;
-    color: #707070;
+    color: #95989a;
 }
 .checkbox-checkbox{}
-.form-btn
+.form-btn{
+    background-color: #08a6e4;
+    text-decoration: none;
+    color: white;
+    border-radius: 35px;
+    box-shadow: 5px 10px 14px #07ace629;
+    font-family: Open Sans, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 15px 60px;
 
 
+}
+
+.contact-details{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container1{
+    max-width: 1352px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer{
+    width: 100%;
+    height: 89px;
+    background-color: #F7F7F7;
+    box-shadow: 0 -5px 40px #00000029;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-logo{
+    font-family: Raleway, sans-serif;
+    color: #08A6E4;
+    font-size: 26px;
+    text-align: left;
+    font-weight: 200;
+}
+.footer-copyright{
+    font-family: Open Sans, sans-serif;
+    font-size: 11px;
+    color: #A5A5A5;
+    text-align: left;
+}
+.footer-right{
+    display: inline-flex;
+    align-items: center;
+}
